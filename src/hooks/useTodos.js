@@ -21,7 +21,7 @@ export default function userTools(){
         store.commit('CHANGE_TODO',todo);
     }
     const removeTodo=(id)=>{
-        store.dispatch('ROMOVE_TODO',id);
+        store.dispatch('REMOVE_TODO',id);
     }
     return {
         addTodo,
